@@ -71,3 +71,13 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+## Dans le cadre de ce test technique, j'ai réalisé plusieurs tâches spécifiques sur le backend :
+
+- **Complétion des méthodes `delete` et `update`** : J'ai implémenté ces méthodes dans le repository et le controller afin de permettre la suppression et la mise à jour des tâches.
+  
+- **Ajout d'un nouvel endpoint** : J'ai développé un endpoint supplémentaire permettant de rechercher une tâche par son ID.
+
+- **Problème rencontré avec la méthode `delete`** : Lors de l'implémentation, j'ai rencontré un problème où l'ID de la tâche était traité comme une chaîne de caractères (string), alors que l'API attendait un entier (int). Ce souci a été résolu en convertissant l'ID en entier avant son utilisation.
+
